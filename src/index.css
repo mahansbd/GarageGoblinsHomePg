@@ -1,13 +1,96 @@
-body {
+body { 
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("25.jpg");
+ 
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+  
+.home h2 {
+  color: rgb(200, 255, 127);
+  padding: 6px;
+  -webkit-text-fill-color: #f1356d;
+  -webkit-text-stroke: 2px rgb(118, 120, 156);
+  max-width: 100px;
+  margin: 10px auto;
+  
+}
+
+.Navbar {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  max-width: auto;
+  margin: -70px auto;
+  border-bottom: 5px solid #f2f2f2;
+}
+.Navbar h1 {
+  color: #ee130c;
+  margin-left: -30px;
+}
+.Navbar .links {
+  margin-left: auto;
+}
+.Navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color:blue;
+}
+.Navbar a:hover {
+  color: #f1356d;
+}
+.content h1 {
+  color: white;
+  background-color: #05912f;
+  text-align: center;
+  border-radius: 8px;
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 30px;
+}
+
+
+.content button {
+  color: white;
+  font-size: large;
+  background-color: #05912f;
+  text-align: center;
+  border-radius: 15px;
+  max-block-size: inherit;
+  margin: 30px;
+  padding: 30px;
+  
+}
+.button {
+columns: flex;
+  
+}
+
+.content p {
+  color:red;
+  font-size: larger;
+  border-radius: 18px;
+  max-width: 200px;
+  margin: 30px auto;
+    
+}
+.content{
+  background-image: url("goblinBAckground.png");
+  background-position-y:center;
+  background-size:cover;
+  height: 1200px;
+  margin-top: auto;
+  background-repeat: no-repeat;
+  
 }
